@@ -1,0 +1,83 @@
+body{
+  background-image: url(contact.png);
+  transition: 2s;
+  background-size: cover;
+}
+h1{
+  color:#35350A;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: black;
+  font-size: 125px;
+  text-shadow: 2PX 2PX 50PX RED;
+  border-radius: 50%;
+}
+h1:hover{
+  transform: scale(1.1);
+  text-decoration: none;
+}
+table{
+  font-size: 75px;
+  color:red;
+  box-shadow: 20px 20px 20px orange;
+}
+h3{
+  font-family: fantasy;
+  box-shadow: 20px 20px 20px grey;
+  color:green;
+}
+h4
+{
+  font-family: 'Lora', serif;
+}
+h4:hover{
+  transform: scale3d(1.5,1.5,1.5);
+}
+a{
+  background-color: white;
+  text-decoration: none;
+  font-size: 100px;
+  box-shadow: 10px 10px 10px grey;
+  text-shadow: 2px 2px 10px red;
+  color:black;
+}
+li{
+  list-style-type: none;
+  margin:25px;
+}
+a:hover{
+  color:violet;
+  text-decoration: underline;
+  box-shadow: none;
+  text-shadow: none;
+  font-family: 'Solway', serif;
+}
+
+form{
+  text-align: right;
+  font-family: 'Lilita One', cursive;
+  left:100px;
+  font-size: 70px;
+}
+input{
+  font-size: 50px;
+  font-family: 'Lilita One', cursive;
+  font-family: 'Solway', serif;
+}
+input:hover{
+  transform: scale(1.1);
+}
+.comment{
+  box-sizing: border-box;
+}
+img{
+  width:250px;
+  height:250px;
+  background-radius:50%;
+  vertical-align: top;
+  background-color: white;
+
+}
+img:hover{
+  transform: scale(1.1);
+}
